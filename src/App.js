@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './Styles.css';
+import {perdidoInfo, brockMarchInfo, bonetownInfo} from './utilities/constants';
+import Header from './components/Header';
+import Lead from './components/Lead';
+import Map from './components/Map';
+import PopupPlace from './components/PopupPlace';
 
 function App() {
+
+  const [isPopupOpen, setIsPopupOpen] = React.useState(false);
+
+  const [selectedPlace, setSelectedPlace] = React.useState();
+
+  const openPopup = () => {
+    setIsPopupOpen(true);
+  }
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+    setSelectedPlace();
+  }
+
+  const handlePlaceClick= (place) => {
+    setSelectedPlace(place);
+    openPopup();
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page">
+      <Header />
+      <Lead />
+      <Map onPlaceClick={handlePlaceClick}/>
+      {/* <PopupPlace place={selectedPlace} isOpen={isPopupOpen} closePopup={closePopup}/> */}
+
     </div>
-  );
+  )
 }
 
 export default App;

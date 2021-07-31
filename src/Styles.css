@@ -1,0 +1,145 @@
+.page {
+    background: black;
+    margin: auto;
+    position: relative;
+}
+
+.header {
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__item {
+    list-style-type: none;
+    color: white;
+    opacity: 1;
+    transition: opacity .2s ease-in-out .2s;
+}
+
+.menu__item:hover {
+    opacity: .6;
+}
+
+.lead {
+    margin: auto;
+}
+
+.lead__title {
+    color: white;
+    text-align: center;
+}
+
+.lead__subtitle {
+    color: white;
+    text-align: center;
+}
+
+.map-container {
+    margin: auto;
+    position: relative;
+}
+
+.map {
+    width: 100vw;
+}
+
+.map__location {
+    border: 1px solid red;
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.map__location_perdido-station {
+    top: 35%;
+    left: 42%;
+}
+
+.map__location_brock-marsh {
+    top: 42%;
+    left: 54%;
+}
+
+.map__location_glasshouse {
+    top: 50%;
+    left: 44%;
+    width: 40px;
+    height: 30px;
+}
+
+.map__location_bonetown {
+    top: 43%;
+    right: 32%;
+}
+
+.modal-window {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 1s, opacity 1s ease;
+}
+
+.modal-window_visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__container {
+    position: relative;
+    max-width: 75vw;
+    padding: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.popup__exit {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor: pointer;
+    border: none;
+    transition: opacity .5s ease-in-out .5s;
+}
+
+.popup__exit:hover {
+    opacity: 0.6;
+}
+
+.popup__image {
+    max-width: 50%;
+    object-fit: contain;
+}
+
+.popup__info-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.popup__title {
+    color: white;
+}
+
+.popup__text {
+    color: white;
+}

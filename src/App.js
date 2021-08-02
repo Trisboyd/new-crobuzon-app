@@ -31,7 +31,7 @@ function App() {
       <Header />
       <Lead />
       <Map onPlaceClick={handlePlaceClick}/>
-      {/* <PopupPlace place={selectedPlace} isOpen={isPopupOpen} closePopup={closePopup}/> */}
+      <PopupPlace place={selectedPlace} isOpen={isPopupOpen} closePopup={closePopup}/>
 
     </div>
   )

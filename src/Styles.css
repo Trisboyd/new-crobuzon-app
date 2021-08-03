@@ -2,6 +2,7 @@
     background: black;
     margin: auto;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -17,9 +18,13 @@
 
 .menu__item {
     list-style-type: none;
-    color: white;
     opacity: 1;
     transition: opacity .2s ease-in-out .2s;
+}
+
+.menu__item-text {
+    color: white;
+    text-decoration: none;
 }
 
 .menu__item:hover {

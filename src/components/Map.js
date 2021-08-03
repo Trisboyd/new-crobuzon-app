@@ -14,7 +14,7 @@ function Map(props) {
         console.log(placeInfo);
     }
     return (
-        <div className="map-container">
+        <div className="map-container" id="map">
             <img className="map" src={map} alt="map" />
             <div className="map__location map__location_perdido-station"
                 data-title={perdidoInfo.title}

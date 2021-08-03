@@ -87,8 +87,72 @@
 }
 
 .map__location_griss-twist {
-    top: 51%;
-    right: 40%;
+    top: 50%;
+    right: 38%;
+}
+
+.map__location_spatters {
+    bottom: 32%;
+    left: 15%;
+}
+
+.races-title {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.races {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 40px;
+    padding: 50px 0 50px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.race-card {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://i.pinimg.com/originals/6a/72/de/6a72deda9a726ccb667916f3e1be5fe3.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.race-card::before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: block;
+    background-color: rgba(0,0,0,.4);
+    z-index: 2;
+}
+
+.race-image {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 282px;
+    border-radius: 50%;
+    z-index: 3;
+    margin: 15px;
+}
+
+.race-card__title {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0 0 15px;
+    z-index: 3;
+}
+
+.race-card__description {
+    color: white;
+    z-index: 3;
 }
 
 .modal-window {

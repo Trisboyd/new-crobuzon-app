@@ -1,10 +1,11 @@
 import React from 'react';
 import './Styles.css';
-import {perdidoInfo, brockMarchInfo, bonetownInfo} from './utilities/constants';
 import Header from './components/Header';
 import Lead from './components/Lead';
 import Map from './components/Map';
 import PopupPlace from './components/PopupPlace';
+import Races from './components/Races';
+import { raceList } from './utilities/constants';
 
 function App() {
 
@@ -26,11 +27,13 @@ function App() {
     openPopup();
   }
 
+
   return (
     <div className="page">
       <Header />
       <Lead />
       <Map onPlaceClick={handlePlaceClick}/>
+      <Races races={raceList}/>
       <PopupPlace place={selectedPlace} isOpen={isPopupOpen} closePopup={closePopup}/>
 
     </div>

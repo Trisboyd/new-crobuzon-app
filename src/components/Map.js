@@ -1,6 +1,6 @@
 import React from 'react';
 import map from "../images/new_crobuzon_map.PNG";
-import { perdidoInfo, brockMarshInfo, bonetownInfo, glasshouseInfo, kinkenInfo, grissTwistInfo } from '../utilities/constants';
+import { perdidoInfo, brockMarshInfo, bonetownInfo, glasshouseInfo, kinkenInfo, grissTwistInfo, spattersInfo } from '../utilities/constants';
 
 function Map(props) {
 
@@ -50,6 +50,12 @@ function Map(props) {
                 data-title={grissTwistInfo.title}
                 data-link={grissTwistInfo.link}
                 data-about={grissTwistInfo.about}
+                onClick={handlePlaceClick}>
+            </div>
+            <div className="map__location map__location_spatters"
+                data-title={spattersInfo.title}
+                data-link={spattersInfo.link}
+                data-about={spattersInfo.about}
                 onClick={handlePlaceClick}>
             </div>
         </div>

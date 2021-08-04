@@ -5,6 +5,7 @@ import Lead from './components/Lead';
 import Map from './components/Map';
 import Races from './components/Races';
 import Books from './components/Books';
+import Footer from './components/Footer';
 import PopupPlace from './components/PopupPlace';
 import PopupRace from './components/PopupRace';
 import { raceList } from './utilities/constants';
@@ -52,6 +53,7 @@ function App() {
       <Races races={raceList}
         onRaceClick={handleRaceClick} />
       <Books />
+      <Footer />
       <PopupPlace place={selectedPlace}
         isOpen={isPlacePopupOpen}
         closePopup={closePopup} />

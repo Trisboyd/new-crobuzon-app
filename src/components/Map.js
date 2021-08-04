@@ -1,6 +1,8 @@
 import React from 'react';
 import map from "../images/new_crobuzon_map.PNG";
-import { perdidoInfo, brockMarshInfo, bonetownInfo, glasshouseInfo, kinkenInfo, grissTwistInfo, spattersInfo } from '../utilities/constants';
+import { perdidoInfo, brockMarshInfo, bonetownInfo, glasshouseInfo, 
+    kinkenInfo, grissTwistInfo, spattersInfo, salacusFieldsInfo,
+    newCrobuzonUniversityInfo } from '../utilities/constants';
 
 function Map(props) {
 
@@ -16,7 +18,7 @@ function Map(props) {
     return (
         <div className="map-container" id="map">
             <img className="map" src={map} alt="map" />
-            <div className="map__location map__location_perdido-station"
+            <div className="map__location map__location_perdido-street-station"
                 data-title={perdidoInfo.title}
                 data-link={perdidoInfo.link}
                 data-about={perdidoInfo.about}
@@ -56,6 +58,18 @@ function Map(props) {
                 data-title={spattersInfo.title}
                 data-link={spattersInfo.link}
                 data-about={spattersInfo.about}
+                onClick={handlePlaceClick}>
+            </div>
+            <div className="map__location map__location_salacus-fields"
+                data-title={salacusFieldsInfo.title}
+                data-link={salacusFieldsInfo.link}
+                data-about={salacusFieldsInfo.about}
+                onClick={handlePlaceClick}>
+            </div>
+            <div className="map__location map__location_new-crobuzon-university"
+                data-title={newCrobuzonUniversityInfo.title}
+                data-link={newCrobuzonUniversityInfo.link}
+                data-about={newCrobuzonUniversityInfo.about}
                 onClick={handlePlaceClick}>
             </div>
         </div>

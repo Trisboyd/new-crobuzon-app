@@ -5,7 +5,7 @@ function Races(props) {
 
     return (
         <>
-            <h3 className="races-title"  id="species">Species in New Crobuzon</h3>
+            <h3 className="section-title"  id="species">Species in New Crobuzon</h3>
             <section className="races">
                 {props.races.map((race) => {
                     return (

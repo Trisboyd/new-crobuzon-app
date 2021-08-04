@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
 .page {
     background: black;
     margin: auto;
     position: relative;
     scroll-behavior: smooth;
+    font-family: Bellefair;
 }
 
 .header {
@@ -13,7 +16,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0;
+    padding: 18px 0 0;
 }
 
 .menu__item {
@@ -25,6 +28,7 @@
 .menu__item-text {
     color: white;
     text-decoration: none;
+    font-size: 24px;
 }
 
 .menu__item:hover {
@@ -36,10 +40,11 @@
     margin: auto;
 }
 
-.lead__title {
+.section-title {
     color: white;
     text-align: center;
-    font-size: 36px;
+    font-size: 56px;
+    text-decoration: underline;
 }
 
 .map-container {
@@ -66,7 +71,7 @@
     background-color: rgba(23, 168, 235, 0.288)
 }
 
-.map__location_perdido-station {
+.map__location_perdido-street-station {
     top: 35%;
     left: 42%;
 }
@@ -83,11 +88,11 @@
 
 .map__location_bonetown {
     top: 43%;
-    right: 32%;
+    right: 30%;
 }
 
 .map__location_kinken {
-    top: 53%;
+    top: 52%;
     left: 35%;
 }
 
@@ -97,15 +102,18 @@
 }
 
 .map__location_spatters {
-    bottom: 32%;
+    bottom: 33%;
     left: 15%;
 }
 
-.races-title {
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 48px;
+.map__location_salacus-fields {
+    bottom: 36%;
+    left: 37%;
+}
+
+.map__location_new-crobuzon-university {
+    top: 31%;
+    right: 32.5%;
 }
 
 .races {
@@ -124,6 +132,8 @@
     background-image: url('https://i.pinimg.com/originals/6a/72/de/6a72deda9a726ccb667916f3e1be5fe3.jpg');
     background-size: cover;
     position: relative;
+    border-radius: 10%;
+    cursor: pointer;
 }
 
 .race-card::before {
@@ -160,8 +170,16 @@
     z-index: 3;
 }
 
+.books-title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto 45px;
+}
+
 .books {
-    background-color: rgb(59, 11, 11);
+    background-color: rgb(63, 11, 11);
+    padding: 10px 0 50px;
 }
 
 .book-cards {
@@ -171,11 +189,33 @@
     max-width: 80%;
     margin: auto;
     list-style-type: none;
+    padding: 0;
 }
 
 .book__image {
     width: 240px;
     height: 350px;
+    cursor: pointer;
+    transition: transform .3s ease-in-out .3s;
+}
+
+.book__image:hover {
+    transform: scale(1.25);
+    -moz-transform: scale(1.25);
+   -ms-transform: scale(1.25);
+   -webkit-transform: scale(1.25);
+   -o-transform: scale(1.25);
+}
+
+.footer {
+    height: 75px;
+}
+
+.footer__text {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
 }
 
 .modal-window {
@@ -210,12 +250,12 @@
 .popup__container_place {
     flex-direction: row;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .popup__container_race {
     flex-direction: column;
-    background-color: rgba(70, 5, 5, 0.6);
+    background-color: rgba(80, 6, 6, 0.6);
 }
 
 .popup__exit {
@@ -249,14 +289,19 @@
 .popup__title {
     color: white;
     text-align: center;
+    font-size: 44px;
+    margin: 15px 0 0;
 }
 
 .popup__text {
     color: white;
+    max-width: 40vw;
+    font-size: 24px;
 }
 
 .popup__race-image {
     max-height: 50vh;
     width: 60%;
+    max-width: 450px;
     margin: auto;
 }

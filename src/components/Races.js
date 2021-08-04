@@ -9,7 +9,13 @@ function Races(props) {
             <section className="races">
                 {props.races.map((race) => {
                     return (
-                        <RaceCard key={race.id} title={race.type} description={race.characteristics} image={race.image} />
+                        <RaceCard 
+                        race={race} 
+                        key={race.id} 
+                        title={race.type} 
+                        description={race.characteristics} 
+                        image={race.image} 
+                        onRaceClick={props.onRaceClick}/>
                     )
                 })}
             </section>

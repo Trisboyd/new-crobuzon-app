@@ -4,7 +4,7 @@ import closeButton from '../images/close-icon.svg';
 function PopupPlace(props) {
     return (
         <div className={`modal-window ${props.isOpen ? 'modal-window_visible' : ''}`}>
-            <div className="popup__container">
+            <div className="popup__container popup__container_place">
                 <img className="popup__exit" src={closeButton} onClick={props.closePopup}/>
                 <img className="popup__image" src={props.place?.link} />
                 <div className="popup__info-container">

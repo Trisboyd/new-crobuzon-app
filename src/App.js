@@ -3,38 +3,61 @@ import './Styles.css';
 import Header from './components/Header';
 import Lead from './components/Lead';
 import Map from './components/Map';
-import PopupPlace from './components/PopupPlace';
 import Races from './components/Races';
+import Books from './components/Books';
+import PopupPlace from './components/PopupPlace';
+import PopupRace from './components/PopupRace';
 import { raceList } from './utilities/constants';
 
 function App() {
 
-  const [isPopupOpen, setIsPopupOpen] = React.useState(false);
+  const [isPlacePopupOpen, setIsPlacePopupOpen] = React.useState(false);
+
+  const [isRacePopupOpen, setIsRacePopupOpen] = React.useState(false);
 
   const [selectedPlace, setSelectedPlace] = React.useState();
 
-  const openPopup = () => {
-    setIsPopupOpen(true);
+  const [selectedRace, setSelectedRace] = React.useState();
+
+  const openPlacePopup = () => {
+    setIsPlacePopupOpen(true);
+  }
+
+  const openRacePopup = () => {
+    setIsRacePopupOpen(true);
   }
 
   const closePopup = () => {
-    setIsPopupOpen(false);
+    setIsPlacePopupOpen(false);
+    setIsRacePopupOpen(false);
     setSelectedPlace();
+    setSelectedRace();
   }
 
-  const handlePlaceClick= (place) => {
+  const handlePlaceClick = (place) => {
     setSelectedPlace(place);
-    openPopup();
+    openPlacePopup();
   }
 
+  const handleRaceClick = (race) => {
+    setSelectedRace(race);
+    openRacePopup();
+  }
 
   return (
     <div className="page">
       <Header />
       <Lead />
-      <Map onPlaceClick={handlePlaceClick}/>
-      <Races races={raceList}/>
-      <PopupPlace place={selectedPlace} isOpen={isPopupOpen} closePopup={closePopup}/>
+      <Map onPlaceClick={handlePlaceClick} />
+      <Races races={raceList}
+        onRaceClick={handleRaceClick} />
+      <Books />
+      <PopupPlace place={selectedPlace}
+        isOpen={isPlacePopupOpen}
+        closePopup={closePopup} />
+      <PopupRace race={selectedRace}
+        isOpen={isRacePopupOpen}
+        closePopup={closePopup} />
 
     </div>
   )

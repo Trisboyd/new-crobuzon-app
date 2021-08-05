@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
-body {
-    background: black;
-}
-
 .root {
     margin: auto;
 }
@@ -213,7 +209,7 @@ body {
     z-index: 2;
 }
 
-.race-image {
+.race-card__image {
     object-fit: contain;
     max-width: 100%;
     max-height: 282px;
@@ -247,7 +243,7 @@ body {
     padding: 10px 0 50px;
 }
 
-.book-cards {
+.books__cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -283,7 +279,7 @@ body {
     margin-top: 70px;
 }
 
-.modal-window {
+.popup {
     display: flex;
     position: fixed;
     top: 0;
@@ -299,7 +295,7 @@ body {
     transition: visibility 1s, opacity 1s ease;
 }
 
-.modal-window_visible {
+.popup_visible {
     opacity: 1;
     visibility: visible;
 }

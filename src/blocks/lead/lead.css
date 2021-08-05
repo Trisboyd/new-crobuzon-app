@@ -1,0 +1,6 @@
+@import url(./__text/lead__text.css);
+
+.lead {
+    padding: 25px 0 25px;
+    margin: auto;
+}

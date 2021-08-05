@@ -1,0 +1,9 @@
+@import url(./__item/menu__item.css);
+@import url(./__item-text/__item-text.css);
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 18px 0 0;
+}

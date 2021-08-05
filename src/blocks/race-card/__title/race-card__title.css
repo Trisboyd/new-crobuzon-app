@@ -1,0 +1,7 @@
+.race-card__title {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0 0 15px;
+    z-index: 3;
+}

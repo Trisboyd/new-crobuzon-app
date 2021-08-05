@@ -1,0 +1,4 @@
+.popup__container_race {
+    flex-direction: column;
+    background-color: rgba(80, 6, 6, 0.6);
+}

@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
+body {
+    background: black;
+}
+
+.root {
+    margin: auto;
+}
+
 .page {
     background: black;
     margin: auto;
@@ -57,18 +65,45 @@
 }
 
 .map__location {
-    border: 1px solid red;
     border-radius: 50%;
     position: absolute;
     width: 100px;
     height: 50px;
     cursor: pointer;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(80, 5, 5, 0.2);
     transition: background-color .05s ease-in-out .05s;
 }
 
+@media screen and (max-width: 1100px) {
+    .map__location {
+        width: 60px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .map__location {
+        width: 40px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .map__location {
+        width: 30px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .map__location {
+        width: 25px;
+        height: 12px;
+    }
+}
+
 .map__location:hover {
-    background-color: rgba(23, 168, 235, 0.288)
+    background-color: rgba(165, 19, 14, 0.4)
 }
 
 .map__location_perdido-street-station {
@@ -83,7 +118,7 @@
 
 .map__location_glasshouse {
     top: 50%;
-    left: 44%;
+    left: 43.5%;
 }
 
 .map__location_bonetown {
@@ -98,7 +133,7 @@
 
 .map__location_griss-twist {
     top: 50%;
-    right: 38%;
+    right: 39%;
 }
 
 .map__location_spatters {
@@ -114,6 +149,36 @@
 .map__location_new-crobuzon-university {
     top: 31%;
     right: 32.5%;
+}
+
+.map__location_dog-fenn {
+    bottom: 43%;
+    right: 14%;
+}
+
+.map__location_strack-island {
+    top: 48%;
+    right: 35%;
+}
+
+.map__location_canker-wedge {
+    top: 16.5%;
+    left: 39%;
+}
+
+.map__location_flag-hill {
+    top: 7.5%;
+    right: 39%;
+}
+
+.map__location_nigh-sump {
+    top: 26%;
+    right: 17%;
+}
+
+.map__location_spit-hearth {
+    top: 37.5%;
+    left: 46%;
 }
 
 .races {

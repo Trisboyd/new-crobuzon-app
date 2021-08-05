@@ -4,7 +4,7 @@ export const places = [
         class: "perdido-street-station",
         title: "Perdido Street Station",
         link: "https://luisfale.files.wordpress.com/2010/02/perdido-street-station-picture.jpg",
-        about: "The heart of New Crobuzon, this station houses two central elements of the city's functional apparatus.  The first is the seat of the government where Mayor Rudgutter and several administration officals rule the city.  The second is the central hub for all trains that pass through the city.",
+        about: "The heart of New Crobuzon, this station is the meeting point for all trains and effectively most commerce in the city. It is also the tallest point in the massive landscape of buildings.",
     },
     {
         id: "2",
@@ -25,7 +25,7 @@ export const places = [
         class: "glasshouse",
         title: "The GlassHouse",
         link: "https://i.pinimg.com/originals/c1/20/a4/c120a49d531989f98bb69b9f343a1e90.jpg",
-        about: "This large structure hosts the majority of the New Crobuzon cactacae popuplation.  With a propensity for warmer climates and species isolation, the cactacae have a pseudo-state in this dome with limited accessibilty for outsiders."
+        about: "This large structure hosts a large portion of the New Crobuzon cactacae popuplation.  With a propensity for warmer climates and species isolation, the cactacae have a pseudo-state in this dome with extremely limited accessibilty for outsiders."
     },
     {
         id: "5",
@@ -61,6 +61,48 @@ export const places = [
         title: "New Crobuzon University",
         link: "https://i.pinimg.com/originals/3e/a1/81/3ea181629f59865ece6113d280865ae9.jpg",
         about: "The most prestigious university in New Crobuzon, this school has numerous fields of study including language, arts, engineering, and the sciences. The school also teaches the science of thaumaturgy which is necessary for Remaking."
+    },
+    {
+        id: "10",
+        class: "dog-fenn",
+        title: "Dog Fenn",
+        link: "https://cdna.artstation.com/p/assets/images/images/000/935/438/large/hugo-puzzuoli-darkslum-hpuzzuoli-mediumsize.jpg?1443928255",
+        about: "Possible the poorest district within the city limits of New Crobuzon (not including the outskirts). Not much is notable about this decrepit area other than it is the secret location of the resistance newspaper the 'Runagate Rampant.'"
+    },
+    {
+        id: "11",
+        class: "strack-island",
+        title: "Strack Island",
+        link: "https://external-preview.redd.it/NhRTpaxthE5v6SCoiFsxQqLICJWTcO2DjiPNA4y0DMY.jpg?width=1200&height=628.272251309&auto=webp&s=6c1437f23dd744d6c66cf16f7d7f4de7e0994ff2",
+        about: "A relatively small island at the meeting point of the Gross Tar and River Canker, this solitary stretch of land is the seat of the government of New Crobuzon. It is protected underwater, by air, and by land and houses multiple offices and living spaces for the highest officals including the mayor."
+    },
+    {
+        id: "12",
+        class: "canker-wedge",
+        title: "Canker Wedge",
+        link: "https://i.pinimg.com/originals/0b/49/54/0b4954b0849188890088168405c6bd68.png",
+        about: "One of the richer districts in New Crobuzon.  Canker Wedge houses a portion of the upper classes and aristrocracy as well as serving as the location for some of the more advanced flight systems."
+    },
+    {
+        id: "13",
+        class: "flag-hill",
+        title: "Flag Hill",
+        link: "https://i.pinimg.com/originals/c5/5c/1e/c55c1e5fd0343e73021dba88ba4db55f.jpg",
+        about: "The most elite district in town where aristocracy, bankers, wealthy artists, and top merchants reside. Unlike most cramped spaces in the city, Flag Hill features spacious areas and gardens. Once it contained a portion of cheap-housing for war veterans, but this was slowly transformed into a 'slum-museum' of sorts."
+    },
+    {
+        id: "14",
+        class: "nigh-sump",
+        title: "Nigh Sump",
+        link: "https://th.bing.com/th/id/R.dcf409c4c17a5387130aa757b9c27344?rik=X%2fDZb3wfJzA2mg&riu=http%3a%2f%2fwww.galeriemagazine.com%2fwp-content%2fuploads%2f2017%2f10%2fDan-Taylor-Flickr-1024x683.jpg&ehk=rdCXSS1YKxpzci7%2fGkFokKkZL7R6cxOAVPN9FCguMLE%3d&risl=&pid=ImgRaw&r=0",
+        about: "An older part of the city with fairly upper-class residents. The old and spaced out building are well preserved and include in their number the 'Glassheim' which is considered one of the most dazzling sights in New Crobuzon."
+    },
+    {
+        id: "15",
+        class: "spit-hearth",
+        title: "Spit Hearth",
+        link: "https://i.pinimg.com/originals/41/20/1b/41201b9da79c37a4d31d8990d0375db3.jpg",
+        about: "A part of 'Old Town' populated by many stone houses. The most promiment features are the punishment factories closer to the river where Remade are manufactured with thaumaturgy following the verdicts of the New Crobuzon justice system."
     }
 ]
 

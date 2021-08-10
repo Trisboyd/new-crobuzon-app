@@ -1,5 +1,7 @@
 import React from 'react';
 
+// A small overlay on the map that contains details about the location in the form of data-attributes
+// once clicked, opens a popup with the details
 function Place(props) {
 
     function handlePlaceClick(event) {

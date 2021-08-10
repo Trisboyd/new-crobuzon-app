@@ -12,6 +12,8 @@ import { raceList } from './utilities/constants';
 
 function App() {
 
+// state variables for popups
+
   const [isPlacePopupOpen, setIsPlacePopupOpen] = React.useState(false);
 
   const [isRacePopupOpen, setIsRacePopupOpen] = React.useState(false);
@@ -35,6 +37,7 @@ function App() {
     setSelectedRace();
   }
 
+// functions for opening popups and placing relevant info into modules
   const handlePlaceClick = (place) => {
     setSelectedPlace(place);
     openPlacePopup();

@@ -4,3 +4,9 @@
     font-size: 56px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 425px) {
+    .section-title {
+        font-size: 42px;
+    }
+}

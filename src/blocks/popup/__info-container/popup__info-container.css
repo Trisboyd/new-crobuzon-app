@@ -4,3 +4,10 @@
     margin-left: 20px;
     max-width: 50%;
 }
+
+@media screen and (max-width: 525px) {
+    .popup__info-container {
+        width: 100vw;
+        margin: auto;
+    }
+}

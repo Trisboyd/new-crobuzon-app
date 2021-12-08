@@ -7,8 +7,8 @@ function Books() {
             <h3 className="section-title">Learn more with these novels by China Mieville</h3>
             <ul className="books__cards">
                 <li className="books__book">
-                    <a className="books__link" href={bookLinks.perdido} target="_blank">
-                        <img className="books__image" src="https://th.bing.com/th/id/R.184492a3c4955387657a4ee518c98702?rik=DoIevAAJqSVRUw&riu=http%3a%2f%2fimg1.fantasticfiction.co.uk%2fimages%2fn4%2fn22663.jpg&ehk=NJ9ct%2bOdHRrcM75ZpIe%2f4g3%2fh826xWBUNgSunGuaaiA%3d&risl=&pid=ImgRaw&r=0" />
+                    <a className="books__link" href={bookLinks.perdido} target="_blank"> 
+                        <img className="books__image" src="https://neverwasmag.com/wp-content/uploads/2020/08/Perdido-Street-Station-cover.jpg" />
                     </a>
                 </li>
                 <li className="books__book">

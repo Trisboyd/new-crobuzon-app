@@ -3,3 +3,10 @@
     max-height: 350px;
     object-fit: contain;
 }
+
+@media screen and (max-width: 525px) {
+    .popup__image {
+        width: 90vw;
+        margin: auto;
+    }
+}

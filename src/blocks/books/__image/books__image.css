@@ -1,8 +1,10 @@
 .books__image {
     width: 25vw;
-    height: 80%;
+    height: 90%;
     cursor: pointer;
     transition: transform .3s ease-in-out .3s;
+    margin: 10px;
+    object-fit: scale-down;
 }
 
 .books__image:hover {

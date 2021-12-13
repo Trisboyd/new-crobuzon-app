@@ -17,7 +17,7 @@
     .popup__exit {
         height: 25px;
         width: 25px;
-        top: 5px;
+        top: -28px;
         right: 5px;
     }
 }

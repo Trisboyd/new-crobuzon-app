@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 525px) {
     .popup__image {
+        max-width: none;
         width: 90vw;
         margin: auto;
     }

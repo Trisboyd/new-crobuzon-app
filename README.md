@@ -4,7 +4,7 @@
 
 ***
 
-###Description
+### Description
 ---
 In late 2020 I became intrigued by the writings of China Mieville after reading his novel "Perdido Street Station."  Fascinated by the world-building
 in his works, I decided to create a website to help readers and fans gain a better understanding of the city of New Crobuzon and
@@ -18,7 +18,7 @@ React - The framework
 BEM - The style organization
 Responsive Design - Works on all devices
 
-###Updates
+### Updates
 ---
 This project may receive updates periodically as new locations and information is added.
 

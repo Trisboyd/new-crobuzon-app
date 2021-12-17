@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/new-crobuzon-app/static/css/main.822c1640.chunk.css",
-    "main.js": "/new-crobuzon-app/static/js/main.d24d4f4a.chunk.js",
-    "main.js.map": "/new-crobuzon-app/static/js/main.d24d4f4a.chunk.js.map",
+    "main.css": "/new-crobuzon-app/static/css/main.4ccad7c2.chunk.css",
+    "main.js": "/new-crobuzon-app/static/js/main.38da2db7.chunk.js",
+    "main.js.map": "/new-crobuzon-app/static/js/main.38da2db7.chunk.js.map",
     "runtime-main.js": "/new-crobuzon-app/static/js/runtime-main.ec6d6532.js",
     "runtime-main.js.map": "/new-crobuzon-app/static/js/runtime-main.ec6d6532.js.map",
     "static/js/2.da4e58f5.chunk.js": "/new-crobuzon-app/static/js/2.da4e58f5.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ae58f1f2.chunk.js": "/new-crobuzon-app/static/js/3.ae58f1f2.chunk.js",
     "static/js/3.ae58f1f2.chunk.js.map": "/new-crobuzon-app/static/js/3.ae58f1f2.chunk.js.map",
     "index.html": "/new-crobuzon-app/index.html",
-    "static/css/main.822c1640.chunk.css.map": "/new-crobuzon-app/static/css/main.822c1640.chunk.css.map",
+    "static/css/main.4ccad7c2.chunk.css.map": "/new-crobuzon-app/static/css/main.4ccad7c2.chunk.css.map",
     "static/js/2.da4e58f5.chunk.js.LICENSE.txt": "/new-crobuzon-app/static/js/2.da4e58f5.chunk.js.LICENSE.txt",
     "static/media/close-icon.e6c3a9a9.svg": "/new-crobuzon-app/static/media/close-icon.e6c3a9a9.svg",
     "static/media/new_crobuzon_map.b80eaf8d.PNG": "/new-crobuzon-app/static/media/new_crobuzon_map.b80eaf8d.PNG"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ec6d6532.js",
     "static/js/2.da4e58f5.chunk.js",
-    "static/css/main.822c1640.chunk.css",
-    "static/js/main.d24d4f4a.chunk.js"
+    "static/css/main.4ccad7c2.chunk.css",
+    "static/js/main.38da2db7.chunk.js"
   ]
 }

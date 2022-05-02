@@ -1,104 +1,89 @@
 export const places = [
     {
-        id: "1",
         class: "perdido-street-station",
         title: "Perdido Street Station",
         link: "https://luisfale.files.wordpress.com/2010/02/perdido-street-station-picture.jpg",
         about: "The heart of New Crobuzon, this station is the meeting point for all trains and effectively most commerce in the city. It is also the tallest point in the massive landscape of buildings.",
     },
     {
-        id: "2",
         class: "brock-marsh",
         title: "Brock Marsh",
         link: "https://64.media.tumblr.com/8eb11471e4f574dcd72cdb11d28ca0ac/tumblr_mj02m0akx61qj014ko1_500.jpg",
         about: "Brock Marsh is the de-facto 'science district' in New Crobuzon where various scholars and for hire scientists maintain small laboratories and conduct various experiments."
     },
     {
-        id: "3",
         class: "bonetown",
         title: "Bonetown",
         link: "https://alchetron.com/cdn/new-crobuzon-936ebf2c-d33e-43ac-9c32-3e80a5f77b0-resize-750.jpg",
         about: "One of the oldest sections of the city, Bonetown is built in and around the massive ribcage of a primordial leviathan long since perished. Bonetown also houses some of the stronger criminal elements of New Crobuzon."
     },
     {
-        id: "4",
         class: "glasshouse",
         title: "The GlassHouse",
         link: "https://i.pinimg.com/originals/c1/20/a4/c120a49d531989f98bb69b9f343a1e90.jpg",
         about: "This large structure hosts a large portion of the New Crobuzon cactacae popuplation.  With a propensity for warmer climates and species isolation, the cactacae have a pseudo-state in this dome with extremely limited accessibilty for outsiders."
     },
     {
-        id: "5",
         class: "kinken",
         title: "Kinken",
         link: "https://66.media.tumblr.com/873b5c783c1d4fb939d84d3ebbf73869/tumblr_p08vm4mtIU1sdu71do8_1280.jpg",
         about: "Most of the city's Khepri popuplation live in this small district.  They migrated following a misunderstood event called 'The Ravening' during which most Khepri died. The best known feature of Kinken is the 'Plaza of Statues.'"
     },
     {
-        id: "6",
         class: "griss-twist",
         title: "Griss Twist",
         link: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/46b30050-07b6-421f-8f52-093b5188ceb2/dbirc3g-204d3d24-a8e4-4bb8-a636-6e257572729a.jpg/v1/fill/w_1239,h_645,q_70,strp/new_crobuzon___high_caliber_bridge_by_etwoo_dbirc3g-pre.jpg",
         about: "Formerly a center of industry, this sector of the city now serves as a land fill for the mass of collected waste the citizens accumulate. A few factories still work to sift through the mountains of refuse, but largely the area is uninhabited with the notable exception of the Construct Council."
     },
     {
-        id: "7",
         class: "spatters",
         title: "Spatters",
         link: "https://th.bing.com/th/id/R.2421d7aa339b39412bd76c276cafa56a?rik=mWojmfcCW53bVg&riu=http%3a%2f%2fi.dailymail.co.uk%2fi%2fpix%2f2012%2f10%2f02%2farticle-2211498-154CB483000005DC-898_964x597.jpg&ehk=vlaC1pKF5W56sFE7XxuvK4rvizrh8oJ6CYOmMGm1DjA%3d&risl=&pid=ImgRaw&r=0",
         about: "On the outskirts of New Crobuzon, Spatters is a slum where some of the poorest inhabitants of the city live. It is also home to the largest group of Garuda in the city who live atop one of the tallest desolate buildings."
     },
     {
-        id: "8",
         class: "salacus-fields",
         title: "Salacus Fields",
         link: "https://th.bing.com/th/id/OIP.60Fs_iuVmnISwlVVRIf5VwHaEu?pid=ImgDet&rs=1",
         about: "Filled with bars and teahouses, Salacus Fields is the de-facto arts district of New Crobuzon where many artists live and spend their time on leisurely activities. The populace is also fairly diverse compared to other districts."
     },
     {
-        id: "9",
         class: "new-crobuzon-university",
         title: "New Crobuzon University",
         link: "https://i.pinimg.com/originals/3e/a1/81/3ea181629f59865ece6113d280865ae9.jpg",
         about: "The most prestigious university in New Crobuzon, this school has numerous fields of study including language, arts, engineering, and the sciences. The school also teaches the science of thaumaturgy which is necessary for Remaking."
     },
     {
-        id: "10",
         class: "dog-fenn",
         title: "Dog Fenn",
         link: "https://cdna.artstation.com/p/assets/images/images/000/935/438/large/hugo-puzzuoli-darkslum-hpuzzuoli-mediumsize.jpg?1443928255",
         about: "Possible the poorest district within the city limits of New Crobuzon (not including the outskirts). Not much is notable about this decrepit area other than it is the secret location of the resistance newspaper the 'Runagate Rampant.'"
     },
     {
-        id: "11",
         class: "strack-island",
         title: "Strack Island",
         link: "https://external-preview.redd.it/NhRTpaxthE5v6SCoiFsxQqLICJWTcO2DjiPNA4y0DMY.jpg?width=1200&height=628.272251309&auto=webp&s=6c1437f23dd744d6c66cf16f7d7f4de7e0994ff2",
         about: "A relatively small island at the meeting point of the Gross Tar and River Canker, this solitary stretch of land is the seat of the government of New Crobuzon. It is protected underwater, by air, and by land and houses multiple offices and living spaces for the highest officals including the mayor."
     },
     {
-        id: "12",
         class: "canker-wedge",
         title: "Canker Wedge",
         link: "https://i.pinimg.com/originals/0b/49/54/0b4954b0849188890088168405c6bd68.png",
         about: "One of the richer districts in New Crobuzon.  Canker Wedge houses a portion of the upper classes and aristrocracy as well as serving as the location for some of the more advanced flight systems."
     },
     {
-        id: "13",
         class: "flag-hill",
         title: "Flag Hill",
         link: "https://i.pinimg.com/originals/c5/5c/1e/c55c1e5fd0343e73021dba88ba4db55f.jpg",
         about: "The most elite district in town where aristocracy, bankers, wealthy artists, and top merchants reside. Unlike most cramped spaces in the city, Flag Hill features spacious areas and gardens. Once it contained a portion of cheap-housing for war veterans, but this was slowly transformed into a 'slum-museum' of sorts."
     },
     {
-        id: "14",
         class: "nigh-sump",
         title: "Nigh Sump",
         link: "https://th.bing.com/th/id/R.dcf409c4c17a5387130aa757b9c27344?rik=X%2fDZb3wfJzA2mg&riu=http%3a%2f%2fwww.galeriemagazine.com%2fwp-content%2fuploads%2f2017%2f10%2fDan-Taylor-Flickr-1024x683.jpg&ehk=rdCXSS1YKxpzci7%2fGkFokKkZL7R6cxOAVPN9FCguMLE%3d&risl=&pid=ImgRaw&r=0",
         about: "An older part of the city with fairly upper-class residents. The old and spaced out building are well preserved and include in their number the 'Glassheim' which is considered one of the most dazzling sights in New Crobuzon."
     },
     {
-        id: "15",
         class: "spit-hearth",
         title: "Spit Hearth",
         link: "https://i.pinimg.com/originals/41/20/1b/41201b9da79c37a4d31d8990d0375db3.jpg",

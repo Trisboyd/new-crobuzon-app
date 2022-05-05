@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@types/lodash.uniqueid": "^4.0.7",
     "gh-pages": "^3.2.3"
   },
   "homepage": "https://Trisboyd.github.io/new-crobuzon-app"

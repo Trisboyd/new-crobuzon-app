@@ -1,11 +1,12 @@
 import React from 'react';
+import { Location } from '../utilities/constants';
 
-interface Location {
-    title: string | null,
-    link: string | null,
-    about: string | null,
-    class: string | null
-}
+// interface Location {
+//     title: string | null,
+//     link: string | null,
+//     about: string | null,
+//     class: string | null
+// }
 
 interface Props {
     place: Location,
@@ -19,7 +20,8 @@ export const Place: React.FC<Props> = (props: Props) => {
 
     function handlePlaceClick(event: React.MouseEvent) {
         const target = event.target as HTMLElement
-        const placeInfo: Location = {
+        const placeInfo: Location =
+        {
             title: target.getAttribute("data-title"),
             link: target.getAttribute("data-link"),
             about: target.getAttribute("data-about"),

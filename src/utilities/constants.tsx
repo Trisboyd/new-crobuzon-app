@@ -1,3 +1,10 @@
+export interface Location {
+    title: string | null,
+    link: string | null,
+    about: string | null,
+    class: string | null
+}
+
 export const places = [
     {
         class: "perdido-street-station",
@@ -27,7 +34,7 @@ export const places = [
         class: "kinken",
         title: "Kinken",
         link: "https://66.media.tumblr.com/873b5c783c1d4fb939d84d3ebbf73869/tumblr_p08vm4mtIU1sdu71do8_1280.jpg",
-        about: "Most of the city's Khepri popuplation live in this small district.  They migrated following a misunderstood event called 'The Ravening' during which most Khepri died. The best known feature of Kinken is the 'Plaza of Statues.'"
+        about: "Much of the city's Khepri popuplation live in this small district.  They migrated following a misunderstood event called 'The Ravening' during which most Khepri died. The best known feature of Kinken is the 'Plaza of Statues.'"
     },
     {
         class: "griss-twist",

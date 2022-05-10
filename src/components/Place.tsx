@@ -1,13 +1,6 @@
 import React from 'react';
 import { Location } from '../utilities/constants';
 
-// interface Location {
-//     title: string | null,
-//     link: string | null,
-//     about: string | null,
-//     class: string | null
-// }
-
 interface Props {
     place: Location,
     onPlaceClick: (place: Location) => void;

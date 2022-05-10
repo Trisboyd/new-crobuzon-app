@@ -4,7 +4,7 @@ import iron from '../images/iron.jpg';
 import perdido from '../images/perdido.jpg';
 import scar from '../images/scar.jpg';
 
-const Books: React.FC = () => {
+export const Books: React.FC = () => {
     return (
         <section className="books" id="books">
             <h3 className="section-title">Learn more with these novels by China Mieville</h3>
@@ -40,5 +40,3 @@ const Books: React.FC = () => {
         </section>
     )
 };
-
-export default Books;

@@ -1,13 +1,13 @@
 import React from 'react';
 import './Styles.css';
-import Header from './components/Header';
-import Lead from './components/Lead';
-import Map from './components/Map';
-import Races from './components/Races';
-import Books from './components/Books';
-import Footer from './components/Footer';
-import PopupPlace from './components/PopupPlace';
-import PopupRace from './components/PopupRace';
+import { Header } from './components/Header';
+import { Lead } from './components/Lead';
+import { Map } from './components/Map';
+import { Races } from './components/Races';
+import { Books } from './components/Books';
+import { Footer } from './components/Footer';
+import { PopupPlace } from './components/PopupPlace';
+import { PopupRace } from './components/PopupRace';
 import { raceList } from './utilities/constants';
 
 function App() {

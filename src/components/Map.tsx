@@ -11,7 +11,7 @@ interface Props {
 
 // the map contains a sourced map of the city and several overlay 'locations' which can be clicked to open a popup with details
 // about the location
-const Map: React.FC<Props> = (props: Props) => {
+export const Map: React.FC<Props> = (props: Props) => {
 
     return (
         <section className="map__container" id="map">

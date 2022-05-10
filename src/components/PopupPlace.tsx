@@ -1,7 +1,14 @@
 import React from 'react';
 import closeButton from '../images/close-icon.svg';
+import { Location } from '../utilities/constants';
 
-function PopupPlace(props) {
+interface Props {
+    isOpen: boolean,
+    closePopup: () => void,
+    place: Location
+}
+
+export const PopupPlace: React.FC<Props> = (props: Props) => {
     return (
         <div className={`popup ${props.isOpen ? 'popup_visible' : ''}`}>
             <div className="popup__container popup__container_place">
@@ -12,7 +19,7 @@ function PopupPlace(props) {
                     alt='close' />
                 <img
                     className="popup__image"
-                    src={props.place?.link}
+                    src={props.place?.link!}
                     alt='place' />
                 <div className="popup__info-container">
                     <h3 className="popup__title">{props.place?.title}</h3>
@@ -22,5 +29,3 @@ function PopupPlace(props) {
         </div>
     )
 }
-
-export default PopupPlace;

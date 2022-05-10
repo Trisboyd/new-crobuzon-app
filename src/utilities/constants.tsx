@@ -5,6 +5,13 @@ export interface Location {
     class: string | null
 }
 
+export interface RaceType {
+    id: string | null,
+    image: string | null,
+    type: string | null,
+    characteristics: string | null
+}
+
 export const places = [
     {
         class: "perdido-street-station",

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+export const Header: React.FC = () => {
     return (
         <header className="header">
             <nav>
@@ -12,6 +12,4 @@ function Header() {
             </nav>
         </header>
     )
-}
-
-export default Header;
+};

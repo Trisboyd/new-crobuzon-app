@@ -5,7 +5,6 @@ import { Place } from './Place';
 import { places } from '../utilities/constants';
 
 interface Props {
-    place: Location,
     onPlaceClick: (place: Location) => void;
 }
 
@@ -16,9 +15,10 @@ export const Map: React.FC<Props> = (props: Props) => {
     return (
         <section className="map__container" id="map">
             <img className="map" src={map} alt="map" />
-            {places.map((place: Location) => {
+            {places.map((place: Location, index) => {
                 return (
                     <Place
+                        key={index}
                         place={place}
                         onPlaceClick={props.onPlaceClick} />
                 )

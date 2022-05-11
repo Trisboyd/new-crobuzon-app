@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/new-crobuzon-app/static/css/main.4ccad7c2.chunk.css",
-    "main.js": "/new-crobuzon-app/static/js/main.3fcfbdd6.chunk.js",
-    "main.js.map": "/new-crobuzon-app/static/js/main.3fcfbdd6.chunk.js.map",
+    "main.js": "/new-crobuzon-app/static/js/main.b960fa1c.chunk.js",
+    "main.js.map": "/new-crobuzon-app/static/js/main.b960fa1c.chunk.js.map",
     "runtime-main.js": "/new-crobuzon-app/static/js/runtime-main.ec6d6532.js",
     "runtime-main.js.map": "/new-crobuzon-app/static/js/runtime-main.ec6d6532.js.map",
     "static/js/2.da4e58f5.chunk.js": "/new-crobuzon-app/static/js/2.da4e58f5.chunk.js",
@@ -14,12 +14,14 @@
     "static/js/2.da4e58f5.chunk.js.LICENSE.txt": "/new-crobuzon-app/static/js/2.da4e58f5.chunk.js.LICENSE.txt",
     "static/media/close-icon.e6c3a9a9.svg": "/new-crobuzon-app/static/media/close-icon.e6c3a9a9.svg",
     "static/media/iron.61271dae.jpg": "/new-crobuzon-app/static/media/iron.61271dae.jpg",
-    "static/media/new_crobuzon_map.b80eaf8d.PNG": "/new-crobuzon-app/static/media/new_crobuzon_map.b80eaf8d.PNG"
+    "static/media/map.b80eaf8d.png": "/new-crobuzon-app/static/media/map.b80eaf8d.png",
+    "static/media/perdido.a3a6e168.jpg": "/new-crobuzon-app/static/media/perdido.a3a6e168.jpg",
+    "static/media/scar.174cf287.jpg": "/new-crobuzon-app/static/media/scar.174cf287.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ec6d6532.js",
     "static/js/2.da4e58f5.chunk.js",
     "static/css/main.4ccad7c2.chunk.css",
-    "static/js/main.3fcfbdd6.chunk.js"
+    "static/js/main.b960fa1c.chunk.js"
   ]
 }
